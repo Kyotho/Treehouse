@@ -522,11 +522,16 @@ p {
 }
 
 .contact__box,
-.posts__box,
 .tweets__box {
-    padding: 50px;
+    padding: 20px;
     text-align: center;
-    width: 33.33333%;
+    width: 30%;
+}
+
+.posts__box {
+    padding: 20px;
+    text-align: center;
+    width: 40%;
 }
 
 .top-footer__link {
@@ -538,7 +543,6 @@ p {
     font-family: 'Roboto Slab', sans-serif;
     text-align: left;
     transition: all 0.8s;
-    padding: 10px 0;
     margin-left: 30px;
 }
 
