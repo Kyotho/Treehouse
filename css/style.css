@@ -213,8 +213,9 @@ p {
 
 .btn--green:hover {
   background-color: #fff;
-  color: black;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
+  color: rgba(93, 140, 89, 1);
+  text-shadow: 0px 1px 1px rgba(93, 140, 89, 0.6);
+  transform: scale(1.2, 1.2);
 }
 
 /* SERVICES */
@@ -957,5 +958,21 @@ p {
   }
   .container--project__ipad {
     display: none;
+  }
+}
+
+.come-in {
+  transform: translateY(500px);
+  animation: come-in 1s ease forwards;
+}
+
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to {
+    transform: translateY(0);
   }
 }
