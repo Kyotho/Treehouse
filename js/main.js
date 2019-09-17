@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  navbarScroll();
   iconsHover();
   navbarCollapse();
   menuSlidedown();
@@ -107,7 +106,6 @@ $('#main-nav a').on('click', function(e) {
   };
 })(jQuery);
 
-var win = $(window);
 var allMods = $('.slide');
 
 allMods.each(function(i, el) {
@@ -116,5 +114,3 @@ allMods.each(function(i, el) {
     el.addClass('already-visible');
   }
 });
-
-win.scroll(function(event) {});
