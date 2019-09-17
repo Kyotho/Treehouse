@@ -5,4 +5,4 @@
 <b>Live: </b><br>
 <a href="https://kyotho.github.io/Treehouse/">Click Here</a><br><br>
 <b>Template: </b><br>
-<a href="https://graphicburger.com/treehouse-psd-web-template/">Click Here</a></p>
+<a href="https://www.behance.net/gallery/14514943/Treehouse-Free-PSD-Web-Template">Click Here</a></p>
