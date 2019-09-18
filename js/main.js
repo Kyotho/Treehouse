@@ -91,6 +91,7 @@ $('#main-nav a').on('click', function(e) {
   }
 });
 
+// What is visible on the screen
 (function($) {
   $.fn.visible = function(partial) {
     var $t = $(this),
